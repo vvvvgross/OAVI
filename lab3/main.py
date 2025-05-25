@@ -93,7 +93,7 @@ def main():
     print("Текущая рабочая директория:", os.getcwd())
 
     # Список файлов для обработки
-    image_filenames = ['first_image.png', 'second_image.png', 'third_image.png']
+    image_filenames = ['first_image.png', 'second_image.png', 'third_image.png', 'fourth_bin.png']
 
     # Разреженная маска (косой крест)
     mask = np.array([
